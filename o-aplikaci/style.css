@@ -64,3 +64,16 @@ html {
   height: auto;
   border-radius: 20px;
 }
+
+.link__style {
+  color: rgb(244, 89, 187);
+  text-decoration: none;
+  font-style: italic;
+}
+
+.container__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
