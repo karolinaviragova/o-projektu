@@ -5,10 +5,62 @@
 
 html {
   font-family: sans-serif;
+  background-color: #F3D9DC;
+}
+
+.main__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  background-color: #C78283;
+  height: 50px;
+  align-items: center;
+}
+
+.main__navigation li {
+  padding-right: 30px;
+}
+
+.main__navigation a {
+  color: black;
+  text-decoration: none;
 }
 
 .container {
-  max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.container__paragraph {
+  text-align: center;
+}
+
+.main__btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.main__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  width: 110px;
+  height: 30px;
+  text-align: center;
+}
+
+.main__btn.eva, .main__btn.karol {
+  background-color: #C78283;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.img__karol {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
 }
