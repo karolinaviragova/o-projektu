@@ -77,3 +77,8 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.textik {
+  margin: 2rem;
+  text-align: center;
+}
